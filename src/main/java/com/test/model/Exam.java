@@ -1,8 +1,5 @@
 package com.test.model;
 
-import javax.xml.bind.annotation.XmlType;
-
-@XmlType
 public class Exam {
 
     private int id;

@@ -46,16 +46,6 @@ class DaoFactory {
                 System.out.println("mysqlPassword:" + mysqlPassword);
             }
         } );
-
-        if (mysqlUrl == null) {
-            mysqlUrl = "db:3306/exam_test";
-        }
-        if (mysqlUser == null) {
-            mysqlUser = "root";
-        }
-        if (mysqlPassword == null) {
-            mysqlPassword = "example";
-        }
     }
 
     private static void createTable(Connection connection) {
