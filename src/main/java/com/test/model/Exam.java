@@ -1,5 +1,8 @@
 package com.test.model;
 
+import javax.xml.bind.annotation.XmlType;
+
+@XmlType
 public class Exam {
 
     private int id;
@@ -40,4 +43,12 @@ public class Exam {
         this.description = description;
     }
 
+    @Override
+    public String toString() {
+        return "Exam{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
